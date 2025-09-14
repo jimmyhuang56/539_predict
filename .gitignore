@@ -1,0 +1,27 @@
+# 排除暫存檔與編譯結果
+*.pyc
+__pycache__/
+
+# 排除特定資料夾
+build/
+dist/
+env/
+models/
+# 排除特定檔案
+ml_feature_generator.py
+ml_feature_utils.py
+ml_generate_feature_csv.py
+model_trainer.py
+predict.py
+run_first_mode.py
+selector.py
+smart_selector.py
+tail_number_selector.py
+telebot.py
+train_model.py
+update_features.py
+weekly_retrain.py
+*.csv
+*.json
+*.pkl
+*.spec
